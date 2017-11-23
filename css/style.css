@@ -1,0 +1,290 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  background: #da2127;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+
+/* Header */
+header{
+  background: #193d71;
+  color: #193d71;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #da2127 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header #branding img{
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+header nav{
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+header li a {
+  display: block;
+}
+
+header li a:hover{
+  color: #da2127;
+}
+
+header li a:active{
+  color: #da2127;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background: url('../img/OBJ.jpg') no-repeat 0 -50px;
+
+  text-align: center;
+  color: #ffffff;
+  ;
+}
+
+#showcase h1{
+  margin-top: 140px;
+  font-size: 55px;
+  margin-bottom: px:
+}
+
+#showcase p{
+  font-size: 18px;
+  color: #ffffff;
+  font-size: 20px
+}
+
+/* Bar/Standings Button */
+
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #193d71;
+}
+
+#newsletter h2 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type = "text"] {
+  padding: 4px;
+  margin-top: 7px;
+  height: 15px;
+  width: 250px;
+}
+
+#newsletter input[type = "submit"] {
+  padding: 4px;
+  margin-top: 7px;
+  height: 27px;
+  width: 150px;
+  background: #da2127;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 45px;
+  padding-bottom: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align:center;
+  width: 30%;
+  padding: 10px;
+  color: #2a2a2b;
+}
+
+#boxes .box img{
+  width: 150px;
+  border-style: Solid;
+  border-width: 2px;
+  border-color: #193d71;
+}
+
+/* Standings */
+
+#teams td, th{
+  border: none;
+}
+
+#teams td {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2a2a2b;
+  padding: 5px;
+  padding-right: 10px;
+  text-align: center;
+  background: #ffffff;
+
+}
+
+#teams {
+  padding-top: 25px;
+}
+
+#teams img {
+  margin-right: 20px;
+  float: left;
+  padding: 20px;
+}
+
+
+/* Standings */
+
+#standings{
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  color: #2a2a2b;
+  padding-top: 15px;
+}
+
+
+
+#standings th {
+  padding: 20px;
+}
+
+#standings td {
+  padding: 10px;
+}
+
+
+/* Schedule */
+
+a{
+  color: #2a2a2b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+div #Weeks {
+  text-align: center;
+}
+
+div #Weeks ul {
+  display: inline-block;
+}
+
+
+div #Weeks li{
+  font-size: 18px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px 20px 0 20px;
+}
+
+div #Weeks a{
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.highlight, header .current a{
+  color: #da2127;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #da2127;
+  font-weight: bold;
+}
+
+/* Weeks */
+
+#weektables th,td
+{
+    margin: 0;
+    text-align: center;
+    border-collapse: collapse;
+    outline: 1px solid #e3e3e3;
+}
+
+#weektables td
+{
+    padding: 5px 10px;
+}
+
+#weektables th
+{
+    background: #193d71;
+    color: white;
+    padding: 5px 10px;
+}
+
+#weektables h2
+    {
+	   padding-top: 15px;
+	   text-align: center;
+	   color: #2a2a2b;
+    }
+
+#weektables h4
+    {
+	   padding-top: 5px;
+	   text-align: center;
+     color: #999999;
+    }
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #193d71;
+  text-align: center;
+}
