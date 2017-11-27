@@ -28,7 +28,7 @@
 
     <section id="showcaseCardinals">
       <div class="container">
-        <h1> San Francisco 49ers </h1>
+        <h1> Arizona Cardinals </h1>
       </div>
     </section>
 

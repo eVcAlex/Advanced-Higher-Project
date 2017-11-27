@@ -5,7 +5,7 @@
     <meta name="description"  content="The National Football league. View currents teams and standings!">
     <meta name="keywords" content="NFL, national football league">
     <meta name="author" content="Alex McGuiness">
-    <title>NFL | Bengals</title>
+    <title>NFL | 49ers </title>
     <style>
     <?php include './css/stylePHP.css'; ?>
     </style>
@@ -19,22 +19,22 @@
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="standings.html">Standings</a></li>
+            <li><a href="teams.html">Teams</a></li>
 
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="showcaseBengals">
+    <section id="showcase49ers">
       <div class="container">
-        <h1> Cincinnati Bengals </h1>
+        <h1> San Francisco 49ers </h1>
       </div>
     </section>
 
     <section id="welcome">
       <div class="container">
-        <h2> The official Cincinnati Bengals Roster </h2>
+        <h2> The official San Francisco 49ers Roster </h2>
       </div>
     </section>
 

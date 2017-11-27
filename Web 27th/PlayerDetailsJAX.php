@@ -5,7 +5,7 @@
     <meta name="description"  content="The National Football league. View currents teams and standings!">
     <meta name="keywords" content="NFL, national football league">
     <meta name="author" content="Alex McGuiness">
-    <title>NFL | Bengals</title>
+    <title>NFL | Jaguars</title>
     <style>
     <?php include './css/stylePHP.css'; ?>
     </style>
@@ -19,22 +19,22 @@
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="standings.html">Standings</a></li>
+            <li><a href="teams.html">Teams</a></li>
 
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="showcaseBengals">
+    <section id="showcaseJaguars">
       <div class="container">
-        <h1> Cincinnati Bengals </h1>
+        <h1> Jacksonville Jaguars </h1>
       </div>
     </section>
 
     <section id="welcome">
       <div class="container">
-        <h2> The official Cincinnati Bengals Roster </h2>
+        <h2> The official Jacksonville Jaguars Roster </h2>
       </div>
     </section>
 
