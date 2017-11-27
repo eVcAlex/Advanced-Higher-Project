@@ -22,11 +22,23 @@ body{
   width: 1500px;
   float: left;
 }
+
 .container2 .item {
   width: 20px;
   padding-left: 100px;
   float: left;
-  height: 75px; }
+  height: 75px;
+}
+
+.container2 .item a {
+  color: #2a2a2a;
+  text-decoration: none;
+}
+
+.container2 .item a:hover {
+  color: #da2127;
+  font-weight: bold;
+}
 
 ul{
   margin: 0;
